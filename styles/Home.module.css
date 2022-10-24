@@ -275,8 +275,8 @@
 .nftBox {
 	border-radius: 16px;
 	border: 1px solid #ccc;
-	width: 19%;
-	min-height: 200px;
+	width: 100px;
+	min-height: 100px;
 }
 
 /* Between 1200 and 800 */

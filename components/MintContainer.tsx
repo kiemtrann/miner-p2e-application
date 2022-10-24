@@ -4,9 +4,7 @@ import { CHARACTER_ADDRESS } from '../const/contractAddress';
 import styles from '../styles/Home.module.css';
 import minerGif from '../mine.gif';
 import Image from 'next/image';
-import styled from 'styled-components';
 
-const ImageGif = styled(Image)``;
 export default function MintContainer() {
 	const editionDrop = useContract(CHARACTER_ADDRESS).contract;
 	const { mutate: claim, isLoading } = useClaimNFT(editionDrop);
